@@ -1,0 +1,43 @@
+header,
+footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+  font-size: 40px;
+}
+.text {
+  font-size: 100;
+  color: red;
+}
+table {
+  background-color: black;
+  border-color: red;
+
+  padding: 1em;
+  overflow: hidden;
+}
+input[type="button"] {
+  color: darkblue;
+  background-color: yellow;
+  border: red;
+  width: 150px;
+  height: 130px;
+  font-size: 60px;
+}
+div.container {
+  width: 100%;
+  border: 1px solid gray;
+}
+nav {
+  float: left;
+  max-width: 100px;
+  margin: 0;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
